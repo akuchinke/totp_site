@@ -1,5 +1,18 @@
 <html>
-    <body>
-    <div>Hello World</div>
-    </body>
+<head title="TOTP Generator">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@otplib/preset-browser@^12.0.0/buffer.js"></script>
+    <script src="https://unpkg.com/@otplib/preset-browser@^12.0.0/index.js"></script>
+</head>
+<body>
+<div>
+    <span style="font-size: 3em" id="code"></span>
+</div>
+<div>
+      <span
+              style="font-size: 1em"
+              id="remaining_time"></span>
+</div>
+<script src="./js/main.js"></script>
+</body>
 </html>
